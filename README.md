@@ -1,0 +1,2 @@
+# ambient_redirector
+ambientのデータを別のチャネルに投げるやつ
