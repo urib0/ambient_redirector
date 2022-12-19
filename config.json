@@ -3,5 +3,16 @@
     "source": {
         "ambient_channel": 12345,
         "ambient_key_read": "hoge"
-    }
+    },
+    "clients": [
+        {
+            "ambient_channel": 12345,
+            "ambient_key_write": "hoge"
+        },
+        {
+            "ambient_channel": 12345,
+            "ambient_key_write": "hoge"
+        }
+    ]
+
 }
