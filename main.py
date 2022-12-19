@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 import requests
+import json
 
 dataKeys = ["d1","d2","d3","d4","d5","d6","d7"]
 
-channelId = 12345
-readKey = "hoge"
+with open("./config.json") as f:
+    conf = json.loads(f.read())
+
+print(f"conf:{conf}")
+channelId = conf["source"]["ambient_channel"]
+readKey = conf["source"]["ambient_key_read"]
 
 url = f"https://ambidata.io/api/v2/channels/{channelId}/data?&readKey={readKey}&n=1"
 
