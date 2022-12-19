@@ -1,0 +1,5 @@
+{
+    "ambient_channel": 12345,
+    "ambient_key_write": "hoge",
+    "interval": 0
+}
