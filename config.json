@@ -1,5 +1,7 @@
 {
-    "ambient_channel": 12345,
-    "ambient_key_read": "hoge",
-    "interval": 0
+    "interval": 0,
+    "source": {
+        "ambient_channel": 12345,
+        "ambient_key_read": "hoge"
+    }
 }
