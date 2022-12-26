@@ -6,7 +6,7 @@ import time
 
 dataKeys = ["d1","d2","d3","d4","d5","d6","d7","d8"]
 
-with open("./config.json") as f:
+with open("/home/ubuntu/work/ambient_redirector/config.json") as f:
     conf = json.loads(f.read())
 
 channelId = conf["source"]["ambient_channel"]
